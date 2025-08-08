@@ -9,14 +9,11 @@ public class Bai04 {
 		int thue = scanner.nextInt();
 		if (thue < 10) {
 			System.out.println("Không đóng thuế");
-		}
-		if (thue >= 10 && thue < 15) {
+		} else if (thue >= 10 && thue < 15) {
 			System.out.println("Đóng thuế 10%");
-		}
-		if (thue >= 15 && thue < 30) {
+		} else if (thue >= 15 && thue < 30) {
 			System.out.println("Đóng thuế 20%");
-		}
-		if (thue > 30) {
+		} else if (thue > 30) {
 			System.out.println("Đóng thuế 50%");
 		}
 	}
